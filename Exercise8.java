@@ -54,7 +54,7 @@ public class Exercise8{
         //question 10
         boolean kDog;
         int apple = 13, ban = 13;
-        kDog = apple == ban; //checks if apple and ban are the same and since they are kDog is set to true
+        kDog = apple != ban; //checks if apple and ban are the same and since they are kDog is set to true
         System.out.println(kDog); //prints true 
 
         //question 11
@@ -84,4 +84,5 @@ public class Exercise8{
         System.out.println(false && true || false); //prints false end is false or false which is false 
 
     }
+
 }
