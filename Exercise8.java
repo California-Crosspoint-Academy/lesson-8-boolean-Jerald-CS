@@ -59,7 +59,7 @@ public class Exercise8{
 
         //question 11
         boolean kCat;
-        kCat = !(apple != ban); //checks if apple does not equal ban since they equal it is set to false but the ! outside flips it making it true again
+        kCat = !(apple == ban); //checks if apple does not equal ban since they equal it is set to false but the ! outside flips it making it true again
         System.out.println(kCat);
 
         //question 12
@@ -86,3 +86,4 @@ public class Exercise8{
     }
 
 }
+
